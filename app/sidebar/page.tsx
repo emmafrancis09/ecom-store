@@ -2,8 +2,8 @@ import React from "react";
 
 export default function Sidebarpage() {
   return (
-    <aside className="relative">
-      <div className="bg-gray-50 shadow-md w-64 h-screen p-4 rounded-r-lg fixed left-0">
+    <aside className="fixed left-0">
+      <div className="bg-gray-50 shadow-md w-64 h-screen p-4 rounded-r-lg flex flex-col flex-1">
         <h1 className="hover:bg-red-200 transition-all cursor-pointer rounded-lg p-2">
           Shoes
         </h1>
